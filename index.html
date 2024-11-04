@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real State</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+   
+  <div class="h-[1048px] bg-no-repeat bg-cover bg-center bg-[url('./images/bg.png')]">
+    <!--header section-->
+    <div class="max-w-[1280px] mx-auto p-4 flex items-center justify-between">
+        <!-- Brand logo -->
+        <a id="WindUI" aria-label="WindUI logo" aria-current="page" class="flex items-center gap-2 py-3 text-lg whitespace-nowrap focus:outline-none lg:flex-1" href="javascript:void(0)">
+          <img src="./images/logo.svg" >
+        </a>
+        <div class="flex gap-8">
+          <a href="#" class="text-[#004743] text-xl font-semibold hover:text-gray-600">Case Studies</a>
+          <a href="#" class="text-[#004743] text-xl font-semibold hover:text-gray-600"">Our Team</a>
+          <a href="#" class="text-[#004743] text-xl font-semibold hover:text-gray-600"">Careers</a>
+          <a href="#" class="text-[#004743] text-xl font-semibold hover:text-gray-600"">Resources</a>
+      </div>
+        <!-- Mobile trigger -->
+        
+    </div>
+    <!--hero section-->
+    <div class="max-w-[1280px] mx-auto flex flex-col items-center">
+        <h1 class="text-7xl text-white font-bold mt-44">Elevating Spaces<br>Crafting Dreams</h1>
+        <h1 class="text-4xl text-white text-center font-bold mt-10">We specialize in transforming visions into reality.<br>Explore our work of innovative architectural.</h1>
+        <a href="#" class="text-xl bg-[#004743] rounded-3xl px-7 py-4 text-white font-semibold mt-10">Book An Appoinment</a>
+    </div>
+    </div>
+    <!--end hero-->
+    <!--about us section-->
+    <div class="max-w-[1280px] mx-auto mt-44">
+        <h1 class="text-6xl text-[#004743] text-center ont-bold mt-20">Architecture Interior.</h1>
+        <h4 class="text-2xl text-[#004743] text-center mt-5 ">We specialize in transforming visions into reality. 
+            Explore our<br>portfolio of innovative architectural and interior design<br>projects crafted with precision.</h4>
+   
+            <!-- Component: Carousel with controls inside -->
+<div class="relative w-full glide-01 mt-10">
+    <!-- Slides -->
+    <div class="overflow-hidden" data-glide-el="track">
+        <ul class="relative w-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
+            <li><img src="./images/img1.png" class="w-full max-w-full max-h-full h-[500px] m-auto" /></li>
+            <li><img src="./images/img2.png" class="w-full max-w-full max-h-full h-[500px] m-auto" /></li>
+            <li><img src="./images/img3.png" class="w-full max-w-full max-h-full h-[500px] m-auto" /></li>
+            <li><img src="./images/img4.png" class="w-full max-w-full max-h-full h-[500px] m-auto" /></li>
+        </ul>
+    </div>
+    <!-- Controls -->
+    <div class="absolute left-0 flex items-center justify-between w-full h-0 px-4 top-1/2 " data-glide-el="controls">
+        <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full lg:w-12 lg:h-12 text-slate-700 border-slate-700 hover:text-slate-900 hover:border-slate-900 focus-visible:outline-none bg-white/20" data-glide-dir="<" aria-label="prev slide">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <title>prev slide</title>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+            </svg>
+        </button>
+        <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full lg:w-12 lg:h-12 text-slate-700 border-slate-700 hover:text-slate-900 hover:border-slate-900 focus-visible:outline-none bg-white/20" data-glide-dir=">" aria-label="next slide">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <title>next slide</title>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+            </svg>
+        </button>
+    </div>
+</div>
+
+<!--rating section-->
+<div class="max-w-[1280px] mx-auto mt-32">
+    <div class="md:flex md:flex-col lg:grid lg:grid-cols-4 lg:gap-44">
+        <div>
+          <h1 class="text-8xl text-[#004743] font-semibold mb-10">8k</h1>
+          <p class="text-2xl text-[#004743]">Interior Projects</p>
+          <p class="text-xl text-gray-600 mt-5"></p>Designs we have finished<br>in last 32 years.
+      </div>
+      <div>
+          <h1 class="text-8xl text-[#004743] font-semibold mb-10">31K</h1>
+          <p class="text-2xl text-[#004743]">Years of Works</p>
+          <p class="text-xl text-gray-600 mt-5"></p>Designs we have finished<br>in last 32 years.
+      </div>
+      <div>
+          <h1 class="text-8xl text-[#004743] font-semibold mb-10">12K</h1>
+          <p class="text-2xl text-[#004743]">Satisfied Clients</p>
+          <p class="text-xl text-gray-600 mt-5"></p>Designs we have finished<br>in last 32 years.
+      </div>
+      <div>
+          <h1 class="text-8xl text-[#004743] font-semibold mb-10">97%</h1>
+          <p class="text-2xl text-[#004743]">Happy Rate</p>
+          <p class="text-xl text-gray-600 mt-5"></p>Designs we have finished<br>in last 32 years.
+      </div>
+        
+    </div>
+</div>
+</div>
+
+
+<!-- End Carousel with controls inside -->
+    <!--testimonial-->
+    <div class="max-w-[1280px] mx-auto flex mt-20">
+        <div class="bg-[#004743] max-w-[620px] p-8">
+          <p class="text-white text-2xl mt-5 text-center font-bold">TESTIMONIALS</p>
+          <h2 class="text-white text-2xl text-center font-bold">Client Stories</h2>
+            <div class="flex flex-col gap-5">
+              
+              <div class="border-2 border-gray-600 rounded-3xl p-8 mt-5">
+                
+              
+              <h4 class="text-white text-xl font-semibold">We specialize in transforming visions into reality. Explore our portfolio of innovative architectural and interior design projects crafted with precision.”</h4>
+              <p class="text-white text-xl font-semibold mt-5">John Doe</p>
+              <p class="text-white text-sm mt-2">Founder, Brambram</p>
+              </div>
+              <div class="border-2 border-gray-600 rounded-3xl p-8 mt-2">
+                
+                
+                <h4 class="text-white text-xl font-semibold">As a commercial developer, we have worked with numerous design firms over the years. NextSpace stands out for their innovative designs, and ability to meet deadlines."</h4>
+                <p class="text-white text-xl font-semibold mt-5">Adam Gllcrist</p>
+                <p class="text-white text-sm mt-2">Co-founder, Xtreme</p>
+                </div>
+                <div class="border-2 border-gray-600 rounded-3xl p-8 mt-2">
+                
+                  
+                  <h4 class="text-white text-xl font-semibold">"Working with NextSpace was an absolute pleasure. Their team truly listened to our needs and translated our vision into a stunning yet functional for our new home."</h4>
+                  <p class="text-white text-xl font-semibold mt-5">Aaididev Gabbar</p>
+                  <p class="text-white text-sm mt-2">Managing Director, Grabtix</p>
+                  </div>
+            </div>
+        </div>
+        <div class="w-[1/2]">
+            <img src="./images/img5.png">
+        </div>
+    </div>
+
+    <!--service section-->
+    <div class="max-w-[1280px] mx-auto mt-32">
+      <p class="text-2xl text-gray-600 font-semibold">SERVICES</p>
+      <h1 class="text-6xl text-[#004743] font-semibold mt-5">Get your dream home<br> with expert help.</h1>
+      <div class="grid grid-cols-3 gap-10 mt-10">
+        <div>
+          <img src="./images/img6.png" class="h-[516px] w-[500px]">
+          <h2 class="text-3xl text-center text-[#004743] font-semibold mt-5">Home Decoraction</h2>
+          <p class="text-xl text-center text-gray-600 mt-3">Efficient use of space is crucial in home interior design. Consider the layout of furniture.</p>
+        </div>
+        <div>
+          <img src="./images/img7.png">
+          <h2 class="text-3xl text-center text-[#004743] font-semibold mt-5">Home Decoraction</h2>
+          <p class="text-xl text-center text-gray-600 mt-3">Efficient use of space is crucial in home interior design. Consider the layout of furniture.</p>
+        </div>
+        <div>
+          <img src="./images/img8.png" class="h-[516px]">
+          <h2 class="text-3xl text-center text-[#004743] font-semibold mt-5">Home Decoraction</h2>
+          <p class="text-xl text-center text-gray-600 mt-3">Efficient use of space is crucial in home interior design. Consider the layout of furniture.</p>
+        </div>
+      </div>
+    </div>
+    <!--working process section-->
+    <div class="bg-[#004743] mt-32">
+      <div class="max-w-[1280px] mx-auto">
+        <div class="grid grid-cols-3 gap-5">
+          <div class="p-6 mt-10">
+            <p class="text-xl text-white font-semibold">SERVICES</p>
+            <h1 class="text-4xl text-white font-semibold mt-5">Our Working<br>Process</h1>
+          </div>
+          <div class="p-6 hover:bg-[#004750] cursor-pointer mt-10">
+            <p class="text-xl text-white font-semibold">01</p>
+            <h1 class="text-xl text-white mt-5">Initial Consultation</h1>
+            <p class="text-lg text-gray-400">The process often begins with an initial consultation between the designer/architect. Get started from here.</p>
+          </div>
+          <div class="p-6 hover:bg-[#004750] cursor-pointer mt-10">
+            <p class="text-xl text-white font-semibold">02</p>
+            <h1 class="text-xl text-white mt-5">Concept Development</h1>
+            <p class="text-lg text-gray-400">In this stage, the designer/architect gathers detailed information about the project requirements.</p>
+          </div>
+          <div class="p-6 hover:bg-[#004750] cursor-pointer mt-10 mb-10">
+            <p class="text-xl text-white font-semibold">03</p>
+            <h1 class="text-xl text-white mt-5">Design Development</h1>
+            <p class="text-lg text-gray-400">Depending on the project scope and location, the designer/architect may assist the client in obtaining.</p>
+          </div>
+          <div class="p-6 hover:bg-[#004750] cursor-pointer mt-10 mb-10">
+            <p class="text-xl text-white font-semibold">04</p>
+            <h1 class="text-xl text-white mt-5">Permitting & Approvals</h1>
+            <p class="text-lg text-gray-400">Depending on the project scope and location, the designer/architect may assist the client. We work to make you 100% happy.</p>
+          </div>
+          <div class="p-6 hover:bg-[#004750] cursor-pointer mt-10 mb-10">
+            <p class="text-xl text-white font-semibold">05</p>
+            <h1 class="text-xl text-white mt-5">Project Closeout</h1>
+            <p class="text-lg text-gray-400">Once construction is complete, the designer/architect conducts a final inspection of the project.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--works section-->
+    <div class="max-w-[1280px] mx-auto mt-32">
+      <p class="text-2xl text-gray-600 text-center font-semibold">WORKS</p>
+      <h1 class="text-6xl text-[#004743] text-center font-semibold mt-5">Our Projects & Designs</h1>
+    <div class="relative w-full glide-09 mt-16">
+      <!-- Slides -->
+      <div data-glide-el="track">
+          <ul class="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 pb-12">
+              <li>
+                  <img src="./images/img9.png" class="w-[600px] h-[516px] max-w-full max-h-full m-auto" />
+                  <p class="text-2xl text-[#004750] text-center font-semibold mt-5">D-Orex Home Interior</p>
+                  <p class="text-xl text-gray-900 text-center mt-2">Milwaukee, WI</p>
+              </li>
+              <li>
+                  <img src="./images/img10.png" class="w-[600px] h-[516px] max-w-full max-h-full m-auto " />
+                  <p class="text-2xl text-[#004750] text-center font-semibold mt-5">D-Orex Home Interior</p>
+                  <p class="text-xl text-gray-900 text-center mt-2">Milwaukee, WI</p>
+              </li>
+              <li>
+                  <img src="./images/img11.png" class="w-[600px] h-[516px] max-w-full max-h-full m-auto " />
+                  <p class="text-2xl text-[#004750] text-center font-semibold mt-5">Orion Home Studio Interior</p>
+                  <p class="text-xl text-gray-900 text-center mt-2">Milwaukee, WI</p>
+              </li>
+              <li>
+                  <img src="./images/img12.png" class="w-[600px] h-[516px] max-w-full max-h-full m-auto " />
+                  <p class="text-2xl text-[#004750] text-center font-semibold mt-5">Titan Office Interior</p>
+                  <p class="text-xl text-gray-900 text-center mt-2">Milwaukee, WI</p>
+              </li>
+              <li>
+                  <img src="./images/img13.png" class="w-[600px] h-[516px] max-w-full max-h-full m-auto " />
+                  <p class="text-2xl text-[#004750] text-center font-semibold mt-5">Partex Office Interior</p>
+                  <p class="text-xl text-gray-900 text-center mt-2">Milwaukee, WI</p>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+  <!--CONTACT section-->
+  <section class="flex items-center justify-center mt-20">
+    <div class="max-w-[1280px] flex items-center gap-5">
+        <div>
+            <img src="./images/img14.png" class="w-full h-[650px]" >
+        </div>
+        <div class="bg-[#a09b98] p-10 shadow-lg">
+        <form action="https://formspree.io/f/xrbggozw" method="POST">
+        <h2 class="text-center text-3xl font-bold text-gray-600">Contact Us</h2>
+        <!--<h1 class="text-blue-600 text-center text-3xl">Restaurant Reservation Form</h1>-->
+        <div class="flex items-center justify-center gap-5">
+           <h1 class="text-gray-600 font-bold mt-10">Name<br>
+           <input type="text" placeholder="First" name="First" class="px-4 py-2 mr-5 rounded-xl" />
+           <input type="text" placeholder="Last" name="Last" class="px-4 py-2 rounded-xl" /></h1>
+        </div>
+        <div class="flex items-center justify-center gap-5 mt-5">
+           <h1 class="text-gray-600 font-bold rounded-xl">Email<br>
+           <input type="text" placeholder="e.g, abc@gmail.com" name="your_mail" class="px-4 py-2 rounded-xl" /></h1>
+           <h1 class="text-gray-600 font-bold rounded-xl">Phone<br>
+           <input type="number" placeholder="### ### ####" name="phone_number" class="px-4 py-2" />
+        </div>
+        <div class="flex items-center justify-center gap-5 mt-5">
+            <h1 class="text-gray-600 font-semibold rounded-xl">Reservation Date<br>
+            <input type="date" placeholder="MM/DD/YYYY" name="reservation_date" class="px-4 py-2 rounded-xl" /></h1>
+            <h1 class="text-gray-600 font-semibold">Reservation Time<br>
+            <input type="time" placeholder="HH:MM AM" name="reservation_time" class="px-4 py-2 rounded-xl mr-10" />
+         </div>
+         <h1 class="text-gray-600 font-semibold w-full mt-5">Notes<br>
+         <textarea name="Your_message" cols="70" rows="5" placeholder="Hello, I am John..." class="rounded-xl p-4" ></textarea></h1>
+         <input type="submit" class="text-white bg-gray-600 font-bold cursor-pointer px-72 py-2 rounded-lg mt-5 hover:bg-gray-950 duration-300" value="Save" />
+       </form>
+    </div>
+    </div>
+</section>
+</div>
+<!--footer section-->
+<div class="bg-[#004750]">
+  <div class="max-w-[1280px] mx-auto mt-32">
+    <div class="grid grid-cols-4 gap-10">
+      <div class="mt-20">
+        <a id="WindUI" aria-label="WindUI logo" aria-current="page" class="flex items-center gap-2 py-3 text-lg whitespace-nowrap focus:outline-none lg:flex-1" href="javascript:void(0)">
+          <img src="./images/logo2.svg" >
+        </a>
+      <div class="grid grid-cols-4 gap-5 mt-10">
+          <img src="./images/img4.svg" class="h-8 cursor-pointer">
+          <img src="./images/img5.svg" class="h-8 cursor-pointer">
+          <img src="./images/img6.svg" class="h-8 cursor-pointer">
+          <img src="./images/img7.svg" class="h-8 cursor-pointer">
+      </div>
+      </div>
+      <div class="flex flex-col items-center mt-20">
+        <p class="text-white text-xl font-semibold">Pages</p>
+        <a href="#" class="text-white text-xl underline mt-7 hover:text-blue-600">Home</a>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">About</a>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">Menu</a>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">Blog</a>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">Contact</a>
+      </div>
+      <div class="flex flex-col mt-20">
+        <p class="text-white text-xl font-semibold">Utility Pages</p>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">Privacy Policy</a>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">Cookie Policy</a>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">Licensing</a>
+        <a href="#" class="text-white text-xl mt-5 hover:text-blue-600 hover:underline">404</a>
+      </div>
+      <div class="mt-20 mb-20">
+        <p class="text-white text-xl font-semibold">Follow Us On Instagram</p>
+        <div class="grid grid-cols-2 gap-3 mt-10">
+          <img src="./images/img8.png" class="rounded-xl object-cover h-[150px] w-[200px]">
+          <img src="./images/img10.png" class="rounded-xl object-cover h-[150px] w-[200px]">
+          <img src="./images/img12.png" class="rounded-xl object-cover h-[150px] w-[200px]">
+          <img src="./images/img1.png" class="rounded-xl object-cover h-[150px] w-[200px]">
+        </div>
+      </div>
+    </div>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <p class="text-[#a9b0a0] text-center p-8 text-lg">2024 © All Rights Reserved by <b>Nusrat Zahan</b></p>
+  </div>
+</div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+  
+  <script>
+      var glide09 = new Glide('.glide-09', {
+          type: 'carousel',
+          autoplay: 1,
+          animationDuration: 4500,
+          animationTimingFunc: 'linear',
+          perView: 3,
+          classes: {
+              activeNav: '[&>*]:bg-slate-700',
+          },
+          breakpoints: {
+              1024: {
+                  perView: 2
+              },
+              640: {
+                  perView: 1,
+                  gap: 36
+              }
+          },
+      });
+  
+      glide09.mount();
+  </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+
+<script>
+    var glide01 = new Glide('.glide-01', {
+        type: 'carousel',
+        focusAt: 'center',
+        perView: 3,
+        autoplay: 3000,
+        animationDuration: 700,
+        gap: 24,
+        classes: {
+            activeNav: '[&>*]:bg-slate-700',
+        },
+        breakpoints: {
+            1024: {
+                perView: 2
+            },
+            640: {
+                perView: 1
+            }
+        },
+    });
+
+    glide01.mount();
+</script>
+  </body>
+</html>
